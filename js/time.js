@@ -19,7 +19,7 @@ function showLocale(objD)
     if  (ww==6)  ww="Samstag";
     if  (ww==0)  ww="Sonntag";  
         colorfoot="</font>"  
-    str = colorhead + "<span class=\"thin\">" + hh + ":"  + mm + "</span>"+ "<br>" + ww  + "  " + colorfoot;  
+    str = colorhead + hh + ":"  + mm + "<br>" + ww  + colorfoot;  
     return(str);  
 };  
 function tick()  
